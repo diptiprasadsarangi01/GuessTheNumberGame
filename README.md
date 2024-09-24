@@ -1,2 +1,50 @@
 # GuessTheNumberGame
 It is a child game full of fun .
+## HTML 
+``` HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepy's Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gameDisclamer">
+        <h1>Welcome To <br />🤖 Deepy's World 🤖</h1>
+        <p style="color: #ffd900">
+          ⚠️!!Deepy is on action !!⚠️<br /><br />Deepy will guess a number
+          between 1 to 100. You have 10 Chances to guess the correct number.
+        </p>
+        <p>If You Guess The Correct Number You Will Win Deepy's Heart❤️</p>
+        <p>👍🏼ALL THE BEST FOR YOUR GAME👍🏼</p>
+      </div>
+      <form action="">
+        <label for="Guessvalues">!!Guess The Number!!</label>
+        <input type="text" id="Guessvalues" class="Guessvalues" />
+        <input type="submit" class="subt" />
+        <h2 id="lowhigh"></h2>
+        <button id="startAgain">Start Again</button>
+      </form>
+      <div class="facts">
+        <p>Previous Guesses: <span id="prvGuess"></span></p>
+        <p>Remaining Guesses:<span id="remGuess">10</span></p>
+      </div>
+    </div>
+    <footer>
+      <p>Design & Develop with 💜 by <a href="https://github.com/diptiprasadsarangi01" target="_blank">Deep</a> &copy; 2024</p>
+    </footer>
+    <script src="deep.js"></script>
+  </body>
+</html>
+```
+## CSS
+```
+
+```
+## JS
+```
+
+```
