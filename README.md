@@ -42,7 +42,188 @@ It is a child game full of fun .
 ```
 ## CSS
 ```
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1d142f;
+    color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 99vh;
+}
+.gameDisclamer{
+    text-align: center;
+}
+.gameDisclamer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3.5rem;
+    margin-bottom: 30px;
+}
+.gameDisclamer p{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    color: rgb(0, 255, 234);
+} 
+form{
+    background-color: #ccadff1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding:40px ;
+    text-align: center;
+}
+label{
+    background-color: #ffffff00;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.Guessvalues{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    background-color: wheat;
+    color: #1d142f;
+    border: none;
+    outline: none;
+    transition: all 0.1s;
 
+}
+.Guessvalues:hover{
+    box-shadow: 0 0 10px #a26dfd;
+}
+.Guessvalues:focus{
+    box-shadow: 0 0 20px #c3a1ff;
+    border-radius: 5px;
+}
+.subt{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+.subt:hover{
+    box-shadow: 0 0 10px rgba(255, 240, 211, 0.314); 
+}
+#startAgain{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    display: none;
+}
+#startAgain:hover{
+    box-shadow: 0 0 10px rgba(255, 240, 211, 0.314); 
+}
+.facts{
+    text-align: center;
+}
+form h2{
+    font-size: 30px;
+    font-family:cursive;
+    background-color: #ffffff00;
+    color: #ff0055;
+    text-shadow: 0 0 3px ;
+    /* #14ff7e */
+}
+.facts p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+footer{
+    
+    margin-top: 40vh;
+    text-align: center;  
+}
+footer p{
+    background-color: #00000057;
+    padding: 10px 8px; 
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    color: #c3a0ff;
+    background-color: #00000000;
+    text-decoration: none;
+}
+footer a:hover{
+    text-shadow: 0 0 4px#8d41ff;
+}
+
+
+@media (max-width: 425px){
+    .gameDisclamer h1{
+       font-size: 1.8rem;
+       margin-bottom: 10px;
+    }
+    .gameDisclamer p{
+        font-size: 1rem;
+        
+    }  
+    label{
+        font-size: 2.5rem;
+    }
+    .Guessvalues{
+        font-size: 30px;
+        width: 280px;
+    }
+    .subt{
+        font-size: 30px;
+        width: 280px;
+    }
+    #startAgain{
+        font-size: 30px;
+        width: 280px;
+    }
+    form h2{
+        font-size: 20px;
+        text-shadow: 0 0 2px ;
+    }
+    .facts p{
+        font-size: 16px;
+        padding: 6px;
+    }
+}
+@media (min-width: 426px) and (max-width: 600px){
+    .gameDisclamer h1{
+       font-size: 2.5rem;
+       margin-bottom: 10px;
+    }
+    .gameDisclamer p{
+        font-size: 1.1rem;
+        
+    }  
+    label{
+        font-size: 2.8rem;
+    }
+    .Guessvalues{
+        font-size: 35px;
+        width: 320px;
+    }
+    .subt{
+        font-size: 35px;
+        width: 320px;
+    }
+    #startAgain{
+        font-size: 35px;
+        width: 320px;
+    }
+    form h2{
+        font-size: 24px;
+        text-shadow: 0 0 2px ;
+    }
+   
+}
 ```
 ## JS
 ```
